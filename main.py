@@ -10,7 +10,7 @@ std = np.std(arr)
 
 # Reshape 1D array into 2D matrix with same number of rows and columns as original matrix
 new_matrix = arr.reshape(matrix.shape[0], matrix.shape[1])
-
+sssss
 # Element-wise multiplication of original matrix and reshaped 2D matrix
 mult_matrix = np.multiply(matrix, new_matrix)
 
