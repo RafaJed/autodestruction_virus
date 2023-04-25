@@ -17,6 +17,9 @@ mult_matrix = np.multiply(matrix, new_matrix)
 # Sum of all elements in element-wise multiplied matrix
 sum_mult_matrix = np.sum(mult_matrix)
 
+# Cross prduct of matrices
+cross_product = np.cross(mult_matrix, new_matrix)
+
 print(f"Original matrix: {matrix}")
 print(f"Reshaped 1D array: {arr}")
 print(f"Mean of 1D array: {mean}")
@@ -24,3 +27,4 @@ print(f"Standard deviation of 1D array: {std}")
 print(f"Reshaped 2D matrix: {new_matrix}")
 print(f"Element-wise multiplied matrix: {mult_matrix}")
 print(f"Sum of all elements in element-wise multiplied matrix: {sum_mult_matrix}")
+print(f"The cross product: {cross_product}")
