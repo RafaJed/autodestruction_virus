@@ -10,7 +10,7 @@ std = np.std(arr)
 
 # Reshape 1D array into 2D matrix with same number of rows and columns as original matrix
 new_matrix = arr.reshape(matrix.shape[0], matrix.shape[1])
-
+sssss
 # Element-wise multiplication of original matrix and reshaped 2D matrix
 mult_matrix = np.multiply(matrix, new_matrix)
 
@@ -28,3 +28,4 @@ print(f"Reshaped 2D matrix: {new_matrix}")
 print(f"Element-wise multiplied matrix: {mult_matrix}")
 print(f"Correlation all elements in element-wise multiplied matrix: {corr_mult_matrix}")
 print('Magdalena')
+print('Rafał')
